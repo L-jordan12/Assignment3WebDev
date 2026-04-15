@@ -1,16 +1,13 @@
-Luke Jordan 
-Assignment 3: Modular Refactoring 
-#
-#
-# Warning: The Open Trivia Database is having a lot of issues when running the application.
-# Both this version, and the old fully working assignment 2 version will only display 1 set of questions
-# completely disregarding the chosen topic. The application on both versions will also take around 1-2 minutes 
-# to load the questions. After looking into it, me and Dakota had found out that our IP had been banned from accessing 
-# the open trivia database for some reason. 
-#
-# Everything works the exact same on this new refactored version as it did on the old assignment 2 version.
-#
-#
+# Assignment 3: Modular Refactoring 
+# Luke Jordan 
+
+
+# Warning: 
+The Open Trivia Database is having a lot of issues when running the application. Both this version, and the old fully working assignment 2 version will only display 1 set of questions completely disregarding the chosen topic. The application on both versions will also take around 1-2 minutes to load the questions. After looking into it, me and Dakota had found out that our IP had been banned from accessing the open trivia database for some reason. 
+
+- Everything works the exact same on this new refactored version as it did on the old assignment 2 version.
+
+
  
 
 # Task 1: Modular Architecture Proposal 
