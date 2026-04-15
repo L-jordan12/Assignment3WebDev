@@ -30,7 +30,7 @@ organization. Use LucidApp to generate your diagram. Export the diagram as an im
 
 and embed it in your README file. 
 
-# My Response:
+## My Response:
 The current architecture of our code from assignment 2 is extremely simple and barebones. We only have 2 java script files that are doing anything, and those 2 files are: Script.js and Streak.js. The Script.js file is the main java script file that runs almost all of our java script code. There are a lot of responsibilities within this file since it pretty much does everything, these things include: Sound/Audio, Controls, Small visual functions for health and number of questions correct, intro screen event handlers, visual effects for the screen, game state switching, fetching data from the open trivia database, actual game logic, and finally game over state. This file will be extremely important to refactor due to almost all of the java script code being in one file, and I will need to make sure that I group things based on what they do, so the code and game logic don’t break. For the other file, Streak.js, it is just a single modular function that controls the logic of if a player is on a streak in the game. This file will likely stay the same as the function is separated perfectly from all the code in Script.js. The problem with our current layout of how we have our java script files structured is that the Script.js violates the single responsibility principle due to the many different responsibilities that are overlapping.  
 
  
@@ -68,7 +68,7 @@ in your README file
  
 
  
-# My Response:
+## My Response:
 
 For a future modular structure, I think there are 3 important modules that could be created to help with the overall organization and design of the code. These modules being: gameLogic.js, fetchLogic.js, and uiEffects.js. 
 
