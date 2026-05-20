@@ -2,7 +2,7 @@
 # Luke Jordan 
 
 
-# Warning: 
+# Warning: (This should be fixed but just in case)
 The Open Trivia Database is having a lot of issues when running the application. Both this version, and the old fully working assignment 2 version will only display 1 set of questions completely disregarding the chosen topic. The application on both versions will also take around 1-2 minutes to load the questions. After looking into it, me and Dakota had found out that our IP had been banned from accessing the open trivia database for some reason. 
 
 - Everything works the exact same on this new refactored version as it did on the old assignment 2 version.
@@ -177,7 +177,9 @@ The two modules I decided to refactor were gameLogic.js and uiEffects.js
  
 
  
+# Overview:
 
+This project was for my CISC 375 class(Web Dev). This project was a group assignment where my group members and I created an interactive web application game similar to Jeopardy. In this specific version of the assignment, I went through all of the code and refactored it using modules. Some different components that I specifically worked with in the game code was all of the art, the logic for hearts and player health, streak logic, and made some of the HTML and CSS. Some other features in this web application include a tracker for the highest score you've gotten. An interactive UI that tells the player how many questions they got right and wrong. One final thing to note is that  this application pulls all of its questions from an online database called Open Trivia DB.
  
 
  
